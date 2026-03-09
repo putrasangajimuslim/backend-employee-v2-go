@@ -10,13 +10,13 @@ import (
 	"github.com/gofiber/fiber/v2/middleware/recover"
 	"github.com/gofiber/fiber/v2/middleware/requestid"
 
-	"github.com/yourname/go-clean-arch/internal/delivery/http/router"
-	"github.com/yourname/go-clean-arch/internal/infrastructure/config"
-	"github.com/yourname/go-clean-arch/internal/infrastructure/database"
-	repo "github.com/yourname/go-clean-arch/internal/infrastructure/repository"
-	"github.com/yourname/go-clean-arch/internal/usecase"
-	"github.com/yourname/go-clean-arch/pkg/response"
-	"github.com/yourname/go-clean-arch/pkg/validator"
+	"github.com/yourname/backend-employee-v2-go/internal/delivery/http/router"
+	"github.com/yourname/backend-employee-v2-go/internal/infrastructure/config"
+	"github.com/yourname/backend-employee-v2-go/internal/infrastructure/database"
+	repo "github.com/yourname/backend-employee-v2-go/internal/infrastructure/repository"
+	"github.com/yourname/backend-employee-v2-go/internal/usecase"
+	"github.com/yourname/backend-employee-v2-go/pkg/response"
+	"github.com/yourname/backend-employee-v2-go/pkg/validator"
 )
 
 func main() {
@@ -33,7 +33,7 @@ func main() {
 	userUseCase := usecase.NewUserUseCase(userRepo, cfg.JWTSecret)
 
 	app := fiber.New(fiber.Config{
-		AppName:      "go-clean-arch",
+		AppName:      "backend-employee-v2-go",
 		ErrorHandler: customErrorHandler,
 	})
 

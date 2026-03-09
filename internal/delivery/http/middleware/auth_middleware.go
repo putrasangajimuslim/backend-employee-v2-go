@@ -5,8 +5,8 @@ import (
 	"strings"
 
 	"github.com/gofiber/fiber/v2"
-	"github.com/yourname/go-clean-arch/pkg/response"
-	"github.com/yourname/go-clean-arch/internal/usecase"
+	"github.com/yourname/backend-employee-v2-go/pkg/response"
+	"github.com/yourname/backend-employee-v2-go/internal/usecase"
 )
 
 type AuthMiddleware struct {

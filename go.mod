@@ -1,4 +1,4 @@
-module github.com/yourname/go-clean-arch
+module github.com/yourname/backend-employee-v2-go
 
 go 1.21
 

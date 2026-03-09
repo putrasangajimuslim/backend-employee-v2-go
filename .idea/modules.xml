@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/go-clean-arch.iml" filepath="$PROJECT_DIR$/.idea/go-clean-arch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/backend-employee-v2-go.iml" filepath="$PROJECT_DIR$/.idea/backend-employee-v2-go.iml" />
     </modules>
   </component>
 </project>

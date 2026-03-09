@@ -3,11 +3,11 @@ package database
 
 import (
 	"fmt"
-	"github.com/yourname/go-clean-arch/internal/domain/entity"
+	"github.com/yourname/backend-employee-v2-go/internal/domain/entity"
 	"log"
 
 	"github.com/glebarez/sqlite"
-	"github.com/yourname/go-clean-arch/internal/infrastructure/config"
+	"github.com/yourname/backend-employee-v2-go/internal/infrastructure/config"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"

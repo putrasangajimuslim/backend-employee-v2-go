@@ -6,8 +6,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/yourname/go-clean-arch/internal/domain/entity"
-	"github.com/yourname/go-clean-arch/internal/domain/repository"
+	"github.com/yourname/backend-employee-v2-go/internal/domain/entity"
+	"github.com/yourname/backend-employee-v2-go/internal/domain/repository"
 	"github.com/golang-jwt/jwt/v5"
 	"golang.org/x/crypto/bcrypt"
 )

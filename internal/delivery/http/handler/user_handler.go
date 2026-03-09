@@ -6,12 +6,12 @@ import (
 	"time"
 
 	"github.com/gofiber/fiber/v2"
-	"github.com/yourname/go-clean-arch/internal/delivery/http/dto"
-	"github.com/yourname/go-clean-arch/internal/delivery/http/middleware"
-	"github.com/yourname/go-clean-arch/internal/domain/entity"
-	"github.com/yourname/go-clean-arch/internal/usecase"
-	"github.com/yourname/go-clean-arch/pkg/response"
-	"github.com/yourname/go-clean-arch/pkg/validator"
+	"github.com/yourname/backend-employee-v2-go/internal/delivery/http/dto"
+	"github.com/yourname/backend-employee-v2-go/internal/delivery/http/middleware"
+	"github.com/yourname/backend-employee-v2-go/internal/domain/entity"
+	"github.com/yourname/backend-employee-v2-go/internal/usecase"
+	"github.com/yourname/backend-employee-v2-go/pkg/response"
+	"github.com/yourname/backend-employee-v2-go/pkg/validator"
 )
 
 // @Summary Register new user
